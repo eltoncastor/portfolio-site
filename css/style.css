@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#topMenu {
+    margin: 0;
+    display: flex;
+    background-color: #302f2f;
+}
+
+#topMenu li{
+    display: block;
+    padding: 15px;
+    
+}
+
+#topMenu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topMenu li:first-child {
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    height:100vh;
+    background: linear-gradient(180deg, rgba(61,220,132,1) 69%, rgba(255,255,255,1) 100%);
+}
+
+#elton {
+    color:#fff;
+    font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.37) 2px 2px 3px;
+}
+
+#btn1{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #302f2f;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.section1 {
+    display: flex;
+    background-color: #fff;
+    height: 33vh;
+}
+
+.section2 {
+    display: flex;
+    background-color: #e5e6ea81;
+    height: 33vh;
+}
+
+.section3 {
+    display: flex;
+    background-color: #fff;
+    height: 33vh;
+}
+
+.imgProjeto {
+    width: 15vh;
+    padding-left: 15px;;
+}
+
+footer {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+
+footer p {
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    font-style: italic;
+}
