@@ -28,10 +28,15 @@ body {
     margin-right: auto;
 }
 
+#topMenu a:hover {
+    color: #3ddc84;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     height:100vh;
-    background: linear-gradient(180deg, rgba(61,220,132,1) 69%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, #3ddc84 69%, #fff 100%);
 }
 
 #elton {
