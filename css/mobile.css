@@ -2,13 +2,10 @@
     html, nav, #header, #topmenu{
         width: 100vw;
     }
-
     #topMenu li:first-child {
-        margin-right: 20px;
         font-size: 17px;
         padding-left: 0
     }
-    
     #topMenu li{
         display: block;
         padding: 10px;
@@ -26,3 +23,4 @@
         margin-left: -20px;
     }
 }
+
