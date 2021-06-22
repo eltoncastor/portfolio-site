@@ -55,6 +55,13 @@ header {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: .6s;
+}
+
+#btn1:hover {
+    font-size: 21px;
+    background-color: #302f2f;
+    color: #3ddc84;
 }
 
 .centralize {
