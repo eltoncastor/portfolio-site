@@ -1,7 +1,12 @@
 @media only screen and (max-width: 767px) {
+    html, nav, #header, #topmenu{
+        width: 100vw;
+    }
+
     #topMenu li:first-child {
-        margin-right: 100px;
+        margin-right: 20px;
         font-size: 17px;
+        padding-left: 0
     }
     
     #topMenu li{
